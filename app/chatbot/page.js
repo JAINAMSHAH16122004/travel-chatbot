@@ -10,7 +10,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: 'Hello! Welcome to Voyago, your personal AI travel assistant. How can I assist you with your travel plans today?',
+      content: 'Hello! Welcome to GlobeTrail, your personal AI travel assistant. How can I assist you with your travel plans today?',
     }
   ]);
   const [message, setMessage] = useState('');
@@ -136,7 +136,7 @@ export default function Chatbot() {
         >
           <Box mb={2} textAlign="center">
             <Typography variant={isMobile ? "h5" : "h4"} fontWeight="bold" mb={1}>
-              Voyago
+              GlobeTrail
             </Typography>
             <Typography variant={isMobile ? "body2" : "body1"}>
               How can I assist you today?

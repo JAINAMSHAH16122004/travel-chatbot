@@ -45,7 +45,7 @@ export default function Feedback() {
           color="#333"
           textAlign="center"
         >
-          How was your conversation with Voyago?
+          How was your conversation with GlobeTrail?
         </Typography>
         <Stack direction={isMobile ? "column" : "row"} spacing={2} justifyContent="center">
           <Button

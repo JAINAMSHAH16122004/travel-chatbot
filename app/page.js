@@ -60,14 +60,14 @@ export default function LandingPage() {
           boxShadow={3}
           bgcolor="#FDEDD4"
         >
-          <img src="logo.png" alt="Logo" style={{ width: '40%', borderRadius: 20}} />
+          {/* <img src="logo.png"  style={{ width: '40%', borderRadius: 20}} /> */}
           <Box mb={2} textAlign="center">
             <Typography variant="h1"> 
               Explore the world,<br />
               one conversation at <br />a time
             </Typography>
             <Typography variant="body1">
-              Discover personalized travel assistance with Voyago. Ready to start your journey?
+              Discover personalized travel assistance with GlobeTrail. Ready to start your journey?
             </Typography>
           </Box>
 
